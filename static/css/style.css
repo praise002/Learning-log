@@ -1,0 +1,129 @@
+/* General */
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.8rem;
+}
+
+/* Navbar */
+
+li{
+    list-style: none;
+    border-bottom: 1px solid rgb(172, 161, 161);
+    padding: 5px 0;
+}
+
+a:hover{
+    color: rgb(82, 20, 44);
+}
+
+@media screen and (min-width:768px){
+    li{
+        border-bottom: 0;
+        margin-left: 10px;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(197, 222, 210);
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+@media screen and (min-width:768px){
+    .nav{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 8px 7px;
+    }
+
+    .left-section{
+        display: flex;
+        flex: 1;
+    }
+
+    .right-section{
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+    }
+
+}
+
+.container{
+    margin-left: 15px;
+    /* background-color: rgb(230, 216, 229); */
+    background-color: rgb(245, 242, 245);
+    padding: 25px 15px;
+    width: 80vw;
+    margin: 150px auto auto;
+}
+
+@media screen and (min-width:768px){
+    .container{
+        margin-top: 100px;
+    }
+}
+
+/* Content */
+
+.header{
+    font-size: 3rem;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.content{
+    line-height: 22px;
+    margin-top: 5px;
+}
+
+.btn{
+    background: rgb(102, 80, 80);
+    border: 0;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+.btn a {
+    color: #fff;
+}
+
+/* Register */
+
+.form{
+    margin-top: 60px;
+    margin-left: 5px;
+    width: 60vw;
+}
+
+@media screen and (max-width:768px){
+    .form{
+        margin-top: 150px;
+    }
+}
+
+.submit{
+    color: #fff;
+}
+
+/* Logout */
+
+.logged-out{
+    margin-top: 55px;
+    margin-left: 4px;
+}
