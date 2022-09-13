@@ -1,6 +1,6 @@
 # Learning-log
 To keep track of topics and entries
-#### git remote add origin https://github.com/praise002/Learning-log.git
+#### git remote add origin url.git
 ####git branch -M master
 ####git push -u origin master
 
